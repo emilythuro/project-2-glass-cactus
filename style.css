@@ -27,28 +27,3 @@ header {
   width: 100%;
   height: auto;
 }
-
-/* nav */
-
-nav {
-  background-color: rgba(225,225,225,0.5);
-  color: white;
-}
-
-ul {
-  display: flex;
-  flex-flow: row wrap;
-  list-style-type: none;
-  font-size: 1.5em;
-  width: 100vh;
-}
-
-a:link {
-  color: white;
-  font-style: none;
-}
-
-a:visited {
-  color: white;
-  font-style: none;
-}
