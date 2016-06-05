@@ -2,6 +2,7 @@ body {
   display: flex;
   font-family: sans-serif;
   font-size: 16px;
+  overflow: hidden;
 }
 
 /* audio controls */
@@ -30,8 +31,7 @@ header {
 
 .gc-logo {
   display: flex;
-  position: fixed;
-  justify-content: center;
-  width: 28%;
+  position: absolute;
+  width: 30%;
   z-index: 100;
 }
