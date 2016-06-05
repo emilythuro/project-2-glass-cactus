@@ -29,7 +29,9 @@ header {
 }
 
 .gc-logo {
-  display: inline-block;
-  width: 42%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  width: 28%;
   z-index: 100;
 }
