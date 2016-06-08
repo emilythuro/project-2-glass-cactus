@@ -54,6 +54,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  visibility: collapse;
 }
 
 li {
@@ -68,4 +69,15 @@ ul  {
   text-align: center;
   color: white;
   z-index: 100;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+/* Hover */
+.gc-logo:hover {
+  opacity: 0.5;
+}
+
+nav:hover {
+  visibility: visible;
 }
