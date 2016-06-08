@@ -48,13 +48,12 @@ nav {
   position: absolute;
   background-color: rgba(0,0,0,0.5);
   list-style: none;
-  font-size: 2.5em;
+  font-size: 3vw;
   z-index: 100;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  visibility: collapse;
 }
 
 li {
@@ -73,6 +72,23 @@ ul  {
   padding-bottom: 1%;
 }
 
+a:visited {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
 /* Hover */
 .gc-logo:hover {
   opacity: 0.5;
