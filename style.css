@@ -80,6 +80,12 @@ h1 {
   position: absolute;
   margin: 0;
   padding: 0;
+  color: rgba(255,255,255,0.8);
+  font-size: 2em;
+  text-align: center;
+}
+
+h1:hover {
   color: white;
 }
 
