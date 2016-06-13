@@ -1,3 +1,6 @@
+/* INDEX STYLES */
+
+
 /* body */
 
 body {
@@ -19,62 +22,12 @@ audio {
 /* header */
 
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100vw;
   height: 100%;
   column-count: 2;
-}
-
-.header-image-1  {
-  display: inline;
-  width: 100%;
-  height: 50vh;
-  z-index: 50;
-  object-fit: cover;
-  object-position: 
-}
-
-.header-image-2 {
-  display: inline;
-  width: 100%;
-  height: 50vh;
-  z-index: 50;
-  object-fit: cover;
-}
-
-.header-image-3 {
-  display: inline;
-  width: 100%;
-  height: 50vh;
-  z-index: 50;
-  object-fit: cover;
-}
-
-.header-image-4 {
-  display: inline;
-  width: 100%;
-  height: 50vh;
-  z-index: 50;
-  object-fit: cover;
-}
-
-.header-image-1:hover {
-  opacity: 0.5;
-  color: rgba(255,255,255,0.5);
-}
-
-.header-image-2:hover {
-  opacity: 0.5;
-  color: rgba(255,255,255,0.5);
-}
-
-.header-image-3:hover {
-  opacity: 0.5;
-  color: rgba(255,255,255,0.5);
-}
-
-.header-image-4:hover{
-  opacity: 0.5;
-  color: rgba(255,255,255,0.5);
 }
 
 .gc-logo {
@@ -86,3 +39,48 @@ header {
   width: 30%;
   z-index: 100;
 }
+
+.header-image-1  {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+}
+
+.header-image-2 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: top;
+}
+
+.header-image-3 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: right;
+}
+
+.header-image-4 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: right;
+}
+
+.header-image-1:hover, .header-image-2:hover, .header-image-3:hover, .header-image-4:hover {
+  opacity: 0.5;
+  color: rgba(255,255,255,0.5);
+}
+
+
+/* HISTORY STYLES */
+
+/* MEMBERS STYLES */
+
+/* MUSIC STYLES */
+
+/* SOCIAL STYLES */
