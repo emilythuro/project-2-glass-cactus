@@ -1,7 +1,63 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* START */
+
+/* INDEX STYLES */
+
+/* body */
+
 body {
   display: flex;
+  background-color: black;
   font-family: sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* audio controls */
@@ -14,41 +70,69 @@ audio {
 /* header */
 
 header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100vw;
   height: 100%;
-  background-size: cover;
-  z-index: 50;
+  column-count: 2;
 }
 
-.header-image {
-  display: inline-block;
-  justify-content: center;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
-
-/* nav */
-
-nav {
-  background-color: rgba(225,225,225,0.5);
-  color: white;
-}
-
-ul {
+.gc-logo {
   display: flex;
-  flex-flow: row wrap;
-  list-style-type: none;
-  font-size: 1.5em;
-  width: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  z-index: 100;
 }
 
-a:link {
-  color: white;
-  font-style: none;
+.header-image-1  {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
 }
 
-a:visited {
+.header-image-2 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: top;
+}
+
+.header-image-3 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: right;
+}
+
+.header-image-4 {
+  width: 50vw;
+  height: 50vh;
+  z-index: 50;
+  object-fit: cover;
+  object-position: right;
+}
+
+.header-image-1:hover, .header-image-2:hover, .header-image-3:hover, .header-image-4:hover {
+  opacity: 0.5;
+  color: rgba(255,255,255,0.5);
+}
+
+h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: rgba(255,255,255,0.8);
+  font-size: 2em;
+  text-align: center;
+}
+
+h1:hover {
   color: white;
-  font-style: none;
 }
