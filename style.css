@@ -75,6 +75,7 @@ header {
   flex-wrap: wrap;
   width: 100vw;
   height: 100%;
+<<<<<<< Updated upstream
   column-count: 2;
 }
 
@@ -131,8 +132,73 @@ h1 {
   color: rgba(255,255,255,0.8);
   font-size: 2em;
   text-align: center;
+=======
+  background-size: cover;
+  z-index: -1;
+}
+
+.header-image {
+  display: inline-block;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.gc-logo {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  z-index: 100;
+}
+
+/* Nav */
+
+nav {
+  display: table;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  list-style: none;
+  font-size: 2.5em;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+li {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  list-style: none;
+}
+
+ul  {
+  display: table-cell;
+  text-align: center;
+  color: white;
+  z-index: 100;
+  padding-top: 1%;
+  padding-bottom: 1%;
+>>>>>>> Stashed changes
 }
 
 h1:hover {
   color: white;
+<<<<<<< Updated upstream
+=======
+  text-decoration: none;
+}
+/* Hover */
+.gc-logo:hover {
+  opacity: 0.5;
+}
+
+nav:hover {
+  visibility: visible;
+>>>>>>> Stashed changes
 }
