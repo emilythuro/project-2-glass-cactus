@@ -89,7 +89,7 @@ h1 {
 .article-title {
   display: flex;
 	flex-direction: column;
-	left: 10%;
+	padding-left: 10%;
   position: relative;
   font-size: 2.5em;
   color: white;
@@ -127,6 +127,16 @@ li {
 	padding-left: 5%;
 }
 
+a:hover {
+	color: white;
+	text-decoration: none;
+	font-style: oblique;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
 /* THE MUSIC - SOUND CLOUD */
 
 iframe {
@@ -162,3 +172,62 @@ iframe {
 	align-items: center;
 	padding-top: 2%;
 }
+
+/* THE MEMBERS - EZRA GIF */
+
+.ezra-gif {
+	width: auto;
+	height: auto;
+}
+
+/* SOCIAL MEDIA - SECTION */
+
+section {
+	color: white;
+	text-align: left;
+	max-width: 80vw;
+	padding-left: 12%;
+	padding-top: 5%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 420px){
+	body {
+		font-size: 20px;
+	}
+
+.article-paragraph {
+		display: flex;
+		flex-flow: column;
+		column-count: 1;
+		text-align: center;
+		max-width: 90vw;
+}
+
+.ezra-gif {
+		visibility: hidden;
+}
+
+	nav {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width:600px) {
+	body {
+		width: 100vw;
+		font-size: 20px;
+	}
+
+.article-paragraph {
+	display: flex;
+	flex-flow: column;
+	column-count: 1;
+	text-align: center;
+	max-width: 85vw;
+}
+
+	nav {
+		text-align: center;
+	}
